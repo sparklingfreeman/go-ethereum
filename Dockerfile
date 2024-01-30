@@ -29,5 +29,6 @@ ENTRYPOINT ["geth"]
 ARG COMMIT=""
 ARG VERSION=""
 ARG BUILDNUM=""
+ARG LABLE=""
 
 LABEL commit="$COMMIT" version="$VERSION" buildnum="$BUILDNUM"
